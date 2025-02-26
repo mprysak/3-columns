@@ -49,6 +49,20 @@ p {
   color: hsl(31, 77%, 52%);
 }
 
+.car1 button:hover {
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(31, 77%, 59%);
+  cursor: pointer;
+  transition: 1s;
+}
+
+.car1 button:active {
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(31, 77%, 69%);
+  cursor: pointer;
+  transition: 1s;
+}
+
 .car2 {
   background-color: hsl(184, 100%, 22%);
 }
@@ -57,12 +71,41 @@ p {
   color: hsl(184, 100%, 22%);
 }
 
+.car2 button:hover {
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(184, 100%, 29%);
+  cursor: pointer;
+  transition: 1s;
+}
+
+.car2 button:active {
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(184, 100%, 39%);
+  cursor: pointer;
+  transition: 1s;
+}
+
 .car3 {
   background-color: hsl(179, 100%, 13%);
 }
 
 .car3 button {
   color: hsl(179, 100%, 13%);
+  margin-top: 75px;
+}
+
+.car3 button:hover {
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(179, 100%, 20%);
+  cursor: pointer;
+  transition: 1s;
+}
+
+.car3 button:hover {
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(179, 100%, 30%);
+  cursor: pointer;
+  transition: 1s;
 }
 
 button {
