@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+}
+
+p {
+  text-align: left;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.6; 
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 0;
+  max-width: 900px;
+  width: 100%;
+}
+
+.car1, .car2, .car3 {
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.car1 {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.car1 button {
+  color: hsl(31, 77%, 52%);
+}
+
+.car2 {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.car2 button {
+  color: hsl(184, 100%, 22%);
+}
+
+.car3 {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.car3 button {
+  color: hsl(179, 100%, 13%);
+}
+
+button {
+  background-color: hsl(0, 0%, 95%);
+  font-family: 'Lexend Deca', sans-serif;
+  height: 40px;
+  width: 120px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 50px;
+}
+
+.attribution {
+  text-align: center;
+  color: black;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: rgb(0, 132, 255);
+}
+
+h4{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  color: black;
+}
