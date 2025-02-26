@@ -101,9 +101,9 @@ p {
   transition: 1s;
 }
 
-.car3 button:hover {
+.car3 button:active {
   color: hsl(0, 0%, 95%);
-  background-color: hsl(179, 100%, 30%);
+  background-color: hsl(179, 100%, 40%);
   cursor: pointer;
   transition: 1s;
 }
